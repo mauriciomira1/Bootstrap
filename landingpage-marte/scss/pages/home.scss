@@ -1,0 +1,30 @@
+@import '../colors.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('../img/backgroundLp.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.formWd {
+  max-width: 500px;
+}
+
+.topLogo {
+  width: 80px;
+}
+
+.container1 {
+  background-color: $background-color;
+}
+
+.btn-color {
+  background-color: $button-color;
+  border-color: $button-color;
+}

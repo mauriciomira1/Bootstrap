@@ -6,30 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rumo a Marte</title>
+  <!-- Css bootstrap -->
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="./css/background.css">
+  <!-- Css extra -->
+  <link rel="stylesheet" href="./css/extra.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/FAVICON-SPACEX.png" type="image/x-icon">
+  <!-- Script Bootstrap -->
   <script src="./node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+
 
 </head>
 
 <body class="img-fluid">
-  <form class="container bg-dark">
+  <form class="container-sm my-4 container1 formWd px-4 rounded">
+    <!-- Logo -->
+    <div class="container text-center py-1 img-fluid"><img src="img/Logo.png" class="topLogo" alt="Logo"></div>
     <!-- Nome -->
-    <p class="text-light">1 - Qual o seu nome?</p>
-    <div class="input-group mb-3">
+    <p class="text-light mb-0">1 - Qual o seu nome?</p>
+    <div class="input-group mb-1">
 
       <span class="input-group-text" id="basic-addon1">Primeiro Nome</span>
       <input type="text" class="form-control" placeholder="Digite aqui" aria-label="Name"
         aria-describedby="basic-addon1">
     </div>
+
     <!-- Sobrenome -->
-    <div class="input-group mb-3">
+    <div class="input-group">
       <span class="input-group-text" id="basic-addon2">Segundo Nome</span>
       <input type="text" class="form-control" placeholder="Digite aqui" aria-label="Name"
         aria-describedby="basic-addon2">
     </div>
+
     <!-- Gênero -->
-    <p class="text-light">2 - Qual o seu gênero?</p>
+    <p class="text-light mb-0 mt-3">2 - Qual o seu gênero?</p>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
       <label class="form-check-label text-light" for="flexRadioDefault1">
@@ -50,7 +60,7 @@
     </div>
 
     <!-- Treinamentos -->
-    <p class="text-light">3 - Marque os treinamentos que você fez:</p>
+    <p class="text-light mb-1 mt-3">3 - Marque os treinamentos que você fez:</p>
     <div class="form-check form-switch">
       <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
       <label class="form-check-label text-light" for="flexSwitchCheckDefault">Treinamento básico de astrounanta</label>
@@ -69,43 +79,54 @@
       <label class="form-check-label text-light" for="flexSwitchCheckDefault">Treinamento físico intenso</label>
     </div>
     <!-- Qualidades -->
-    <p class="text-light">4 - Quais você acha que são suas qualidades?</p>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label text-light" for="defaultCheck1">
-        Proativo
-      </label>
+
+    <div>
+      <p class="text-light mb-0 mt-3">4 - Quais você acha que são suas qualidades?</p>
+      <div class="container row">
+        <div class="col form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label text-light" for="defaultCheck1">
+            Proativo
+          </label>
+        </div>
+        <div class="col form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label text-light" for="defaultCheck1">
+            Resistente
+          </label>
+        </div>
+        <div class="col-md-auto form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label text-light" for="defaultCheck1">
+            Não vomito fácil
+          </label>
+        </div>
+      </div>
+
+      <div class="container row">
+        <div class="col form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label text-light" for="defaultCheck1">
+            Não temo marciano
+          </label>
+        </div>
+        <div class="col-md-auto form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label text-light" for="defaultCheck1">
+            Já assisti todos os star wars
+          </label>
+        </div>
+      </div>
     </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label text-light" for="defaultCheck1">
-        Resistente
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label text-light" for="defaultCheck1">
-        Não vomito fácil
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label text-light" for="defaultCheck1">
-        Não temo marciano
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label text-light" for="defaultCheck1">
-        Já assisti todos os star wars
-      </label>
-    </div>
-    <button type="button" class="btn btn-outline-danger">Enviar</button>
+
+    <div class="container text-center py-3"><button type="button"
+        class="btn btn-outline-danger btn-color">Enviar</button></div>
   </form>
 </body>
 <footer>
   <div class="container text-center footer">
-    <p>Criado por Maurício Miranda © Todos os direitos reservados - 2023</p>
+    <!-- Footer -->
+    <p class="text-light">Criado por Maurício Miranda &copy; Todos os direitos reservados - 2023</p>
   </div>
 </footer>
 
