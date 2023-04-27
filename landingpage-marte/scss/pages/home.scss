@@ -25,6 +25,10 @@ body {
 }
 
 .btn-color {
-  background-color: $button-color;
+  background-color: $background-color;
   border-color: $button-color;
+
+  &:hover {
+    transition: 0.3s;
+  }
 }

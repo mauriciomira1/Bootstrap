@@ -23,8 +23,11 @@ body {
 }
 
 .btn-color {
-  background-color: #ff0043;
+  background-color: rgba(19, 18, 18, 0.9450980392);
   border-color: #ff0043;
+}
+.btn-color:hover {
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=extra.css.map */
