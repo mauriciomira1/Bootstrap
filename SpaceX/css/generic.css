@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 body {
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(0, 0, 0);
+}
+
+.text-style {
+  color: #fff;
+}
+.text-style:hover {
+  color: #a8a8a8;
 }
 
 .logo-img {
   width: 40px;
+}
+
+.nav-style {
+  color: #fff;
 }
 
 .arrowDown {
@@ -11,7 +23,7 @@ body {
 }
 
 footer {
-  background-color: #0e0e0e;
+  background-color: #000000;
 }
 
 .footer-container {
@@ -21,13 +33,21 @@ footer {
   justify-content: center;
 }
 .footer-container p {
-  padding-top: 18px;
+  padding-top: 16px;
   font-size: 0.7em;
   margin-right: 30px;
   cursor: default;
+  color: #777777;
 }
 .footer-container a {
   padding: 10px 24px;
+}
+
+@media (max-width: 425px) {
+  .footer-container p {
+    font-size: 0.7em;
+    margin-right: 10px;
+  }
 }
 
 /*# sourceMappingURL=generic.css.map */

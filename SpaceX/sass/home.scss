@@ -11,6 +11,7 @@
 
 .arrowDown {
   width: 120px;
+  margin-top: 80px;
 }
 
 .container2,
@@ -54,4 +55,15 @@
 
 .container-text {
   margin: 200px 0 0 0;
+}
+
+@media (max-width: 425px) {
+  #small-text {
+    font-size: 0.9em;
+  }
+
+  #saiba-mais-btn {
+    padding: 8px 20px;
+  }
+
 }
