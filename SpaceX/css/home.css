@@ -1,0 +1,58 @@
+.container1 {
+  background-image: url("/SpaceX/img/home/01.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container1-text {
+  margin: 200px 0 0 14%;
+}
+
+.arrowDown {
+  width: 120px;
+}
+
+.container2,
+.container3,
+.container4 {
+  background-position: center;
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.container2 {
+  background-image: url("/SpaceX/img/home/03.jpg");
+  background-size: cover;
+}
+
+.container3 {
+  background-image: url("/SpaceX/img/home/02.gif");
+  background-size: cover;
+}
+
+.container4 {
+  background-image: url("/SpaceX/img/home/04.jpg");
+  background-size: cover;
+}
+
+.text-style {
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+.btn-style {
+  border-radius: 4px;
+  padding: 16px 34px;
+  border: 2px solid #fff;
+}
+
+.container-text {
+  margin: 200px 0 0 0;
+}
+
+/*# sourceMappingURL=home.css.map */

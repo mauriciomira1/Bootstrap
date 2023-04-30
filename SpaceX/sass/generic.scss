@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(59, 59, 59);
+}
+
+.logo-img {
+  width: 40px;
+}
+
+.arrowDown {
+  width: 120px;
+}
+
+footer {
+  background-color: #0e0e0e;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    padding-top: 18px;
+    font-size: 0.7em;
+    margin-right: 30px;
+    cursor: default;
+  }
+
+  a {
+    padding: 10px 24px;
+  }
+}
