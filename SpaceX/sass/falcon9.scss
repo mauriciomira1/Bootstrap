@@ -1,0 +1,109 @@
+.container1,
+.container2,
+.container3,
+.container3-1,
+.container3-2,
+.container3-3,
+.container3-4,
+.container3-5,
+.container4,
+.container5 {
+  background-position: center;
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.container1 {
+  background-image: url('/SpaceX/img/falcon9/01.jpg');
+
+  .strong-txt {
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #00000018;
+    padding-top: 200px;
+  }
+
+  .subtitle-1 {
+    text-shadow: 2px 2px 2px #00000033;
+  }
+}
+
+.container2 {
+  background-image: url('/SpaceX/img/falcon9/02.jpg');
+  
+  .article-text {
+    text-align: justify;
+    padding-top: 240px;
+    padding-left: 1%;
+    font-size: 1.3em;
+    width: 600px;
+    line-height: 40px;
+  }
+}
+
+.container3 {
+  .container3-1 {
+    background-image: url('/SpaceX/img/falcon9/03.jpg');
+  }
+
+  .container3-2 {
+    background-image: url(('/SpaceX/img/falcon9/04.jpg'));
+    div {
+      padding-top: 240px;
+      margin: 20px 0 0 100px;
+    }
+  }
+  .container3-3 {
+    background-image: url(('/SpaceX/img/falcon9/05.jpg'));
+  }
+  .container3-4 {
+    background-image: url(('/SpaceX/img/falcon9/06.jpg'));
+        div {
+      padding-top: 180px;
+
+    }
+  }
+  .container3-5 {
+    background-image: url(('/SpaceX/img/falcon9/07.jpg'));
+  }
+}
+
+.table-title {
+  margin: 200px 0 0 100px;
+  width: 500px;
+}
+
+.table-style {
+  color: #fff;
+  margin: 20px 0 0 100px;
+  width: 460px;
+  .last-col {
+    text-align: right;
+  }
+}
+
+.container4 {
+  background-image: url('/SpaceX/img/falcon9/08.jpg');
+}
+
+.container5 {
+  // carrossel
+}
+
+.container6 {
+  // guia do usuário, etc
+}
+
+.small-title {
+  font-size: 1.1em;
+}
+
+.counter-number {
+  margin-top: 100px;
+  font-size: 5em;
+}
+
+.counter-name {
+  margin-bottom: 100px;
+  font-size: 1.2em;
+}
