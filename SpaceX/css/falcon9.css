@@ -216,6 +216,9 @@
     background-color: rgba(0, 0, 0, 0.61);
     padding-left: 8px;
   }
+  .container5 .carousel-inner {
+    width: 100%;
+  }
   .container5 .carousel-inner p {
     font-size: 0.6em;
   }

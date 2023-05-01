@@ -1,3 +1,14 @@
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  background-position: center;
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+}
+
 .container1 {
   background-image: url("/SpaceX/img/humanFlight/01.jpg");
 }
@@ -10,31 +21,20 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.0941176471);
 }
 
-.container1,
-.container2,
-.container3,
-.container4,
-.container5 {
-  background-position: center;
-  height: 100vh;
-  background-repeat: none;
-  background-size: cover;
-}
-
 .container2 {
   background-image: url("/SpaceX/img/humanFlight/02.jpg");
 }
 
 .itens-2 {
-  width: 100vw;
+  width: 90vw;
   /* padding-left: 55%; */
   margin-right: 10px;
 }
 
 .container3 {
   background-image: url("/SpaceX/img/humanFlight/03.jpg");
-  display: flex;
-  justify-content: center;
+  /*   display: flex;
+    justify-content: center; */
 }
 
 .container4 {
@@ -46,8 +46,6 @@
 
 .container5 {
   background-image: url("/SpaceX/img/humanFlight/05.jpg");
-  display: flex;
-  justify-content: center;
 }
 
 .container6 {
@@ -55,11 +53,6 @@
 }
 .container6 .links-area {
   padding-bottom: 100px;
-}
-
-.text-style {
-  font-weight: bold;
-  font-size: 0.7em;
 }
 
 .container-text {
@@ -92,6 +85,9 @@
   .container4 {
     width: 100vw;
     padding-left: 25%;
+  }
+  .container-text {
+    margin: 120px 0 0 0;
   }
   .container6 button {
     font-size: 0.8em;
