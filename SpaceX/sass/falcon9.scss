@@ -6,8 +6,7 @@
 .container3-3,
 .container3-4,
 .container3-5,
-.container4,
-.container5 {
+.container4 {
   background-position: center;
   height: 100vh;
   background-repeat: none;
@@ -27,6 +26,8 @@
     text-shadow: 2px 2px 2px #00000033;
   }
 }
+
+
 
 .container2 {
   background-image: url('/SpaceX/img/falcon9/02.jpg');
@@ -90,26 +91,206 @@
   }
 }
 
-
-
-.container5 {
-  // carrossel
-}
-
 .container6 {
-  // guia do usuário, etc
+  padding-top: 200px;
 }
 
 .small-title {
   font-size: 1.1em;
 }
 
+.counter-container {
+  margin: 100px 0;
+}
+
 .counter-number {
-  margin-top: 100px;
+
   font-size: 5em;
 }
 
 .counter-name {
-  margin-bottom: 100px;
   font-size: 1.2em;
+}
+
+
+@media (max-width: 768px) {
+  .subtitle-1 {
+    font-size: 1.3em;
+  }
+  
+.container2 {  
+    .article-text {
+      padding-top: 200px;
+      font-size: 1em;
+      width: 450px;
+      line-height: 1.8;
+    }
+  }
+$margin-right-text: 30px;
+.container3 {
+  .table-title {
+    margin: 200px 0 0 $margin-right-text;
+    width: 300px;
+  }
+  .container-table {
+    font-size: 0.9em;
+  }
+  .container3-2 {
+      div {
+        padding-top: 200px;
+        margin: 20px 0 0 $margin-right-text;
+        width: 410px;
+      } 
+  }
+  .container3-3 {
+    .small-title {
+      width: 400px;
+    }
+  }
+  .container3-4 {
+    div {
+      margin: 0 0 0 $margin-right-text;
+      width: 370px;
+    }
+  }
+  .container3-5 {
+    div {
+      width: 380px;
+    }
+    .table-style {
+      width: 330px;
+    }
+  }
+  .table-style {
+    color: #fff;
+    margin: 20px 0 0 $margin-right-text;
+    width: 400px;
+  }
+}
+
+.container4 {
+  .table-style,
+  .table-title {
+    width: 320px;
+    margin: 70px 0 0 60px
+  }
+}
+
+.container5 {
+  .carousel-inner {
+    p {
+      font-size: 0.8em;
+    }
+  }
+}
+
+
+
+
+}
+
+@media (max-width: 425px) {
+  .counter-container {
+    margin: 70px 0;
+  }
+  .counter-number {
+    font-size: 3em;
+  }
+  .counter-name {
+    font-size: 0.8em;
+  }
+
+.container2 {  
+    .article-text {
+      padding-top: 150px;
+      font-size: 0.9em;
+      width: 290px;
+    }
+  }
+
+  $margin-right-text: 10px;
+  .container3 {
+    .carousel-text {
+      font-size: 0.9em;
+    }
+    .table-title {
+      margin: 100px 0 0 $margin-right-text;
+      width: 88vw;
+    }
+    .container-table {
+      font-size: 0.7em;
+    }
+
+    .container3-1 {
+      .table-style {
+        width: 88vw;
+
+      }
+    }
+    .container3-2 {
+        div {
+          padding-top: 150px;
+          margin: 20px 0 0 $margin-right-text;
+          width: 88vw;
+        } 
+    }
+    .container3-3 {
+      .small-title {
+        width: 88vw;
+      }
+      .table-style {
+        width: 89vw;
+        font-size: 0.95em;
+      }
+
+    }
+    .container3-4 {
+      div {
+        margin: 0 0 0 $margin-right-text;
+        width: 88vw;
+      }
+    }
+    .container3-5 {
+      div {
+        width: 90vw;
+      }
+      .table-style {
+        width: 220px;
+      }
+    }
+    .table-style {
+      color: #fff;
+      margin: 20px 0 0 $margin-right-text;
+      width: 320px;
+    }
+  }
+
+  .container4 {
+    .table-style,
+    .table-title {
+      width: 88vw;
+      margin: 70px 0 0 14vw;
+    }
+
+    .container4-text {
+      font-size: 0.9em;
+      background-color: rgba(0, 0, 0, 0.61);
+      padding-left: 8px;
+    }
+  }
+
+  .container5 {
+    .carousel-inner {
+      p {
+        font-size: 0.6em;
+      }
+    }
+  }
+}
+
+.container6 {
+  padding-top: 100px;
+  button {
+    font-size: 0.8em;
+  }
 }

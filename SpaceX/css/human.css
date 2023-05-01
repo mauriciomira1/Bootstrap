@@ -1,8 +1,7 @@
 .container1 {
   background-image: url("/SpaceX/img/humanFlight/01.jpg");
 }
-
-.container1-text {
+.container1 .container1-text {
   margin-top: 200px;
 }
 
@@ -63,12 +62,6 @@
   font-size: 0.7em;
 }
 
-.btn-style {
-  border-radius: 4px;
-  padding: 16px 34px;
-  border: 2px solid #fff;
-}
-
 .container-text {
   margin: 200px 0 0 0;
 }
@@ -84,12 +77,6 @@
 
 .medium-text {
   font-size: 1.2em;
-}
-
-.email-link {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
 }
 
 @media (max-width: 425px) {
@@ -112,6 +99,11 @@
   }
   .container6 .links-area {
     padding-bottom: 30px;
+  }
+}
+@media (max-width: 375px) {
+  .strong-txt {
+    font-size: 2.5em;
   }
 }
 
